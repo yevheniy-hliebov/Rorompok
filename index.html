@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230321152840">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css?_v=20230321152840">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/theme/dracula.min.css?_v=20230321152840">
+
+    <title>Головна</title>
+</head>
+    <body>
+        
+        <header class="header">
+    <div class="header__container">
+        <a href="#" class="header__logo logo">
+            Roromp<span>ok</span>
+        </a>
+        <nav class="header__menu menu">
+            <ul class="menu__body">
+                <li class="menu__item"><a href="./index.html" class="menu__link">Beranda</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Produk</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Inspirasi</a></li>
+            </ul>
+        </nav>
+        <div class="header__actions actions">
+            <a href="#" data-badge="true" class="actions__shop-cart">
+                <img src="img/icons/shop-cart.svg" alt="shop-cart">
+            </a>
+            <button type="button" class="actions__icon-burger icon-burger"><span></span></button>
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="main__section hero-section">
+                <div class="hero-section__container">
+                    <h1 class="hero-section__title">Buat Suasana Rumah Senyaman 
+                        <div class="border">
+                            <img src="img/icons/custom-border.svg" alt="custom-border">
+                            <span>Imajinasimu  </span> 
+                        </div>
+                    </h1>
+                    <div class="hero-section__sub-text">
+                        <p>
+                            Hidupkan suasana ruanganmu dengan berbagai produk dan koleksi pilihan furniture tebaik! Temukan furniture idamanmu sekarang
+                        </p>
+                    </div>
+                    <form data-form-req action="#" class="hero-section__form-search form-search">
+                        <input data-required type="text" name="text" class="form-search__input" placeholder="cari furniture disini">
+                        <button type="submit" class="form-search__btn-search"></button>
+                    </form>
+                </div>
+            </section>
+            <section class="main__section features-section">
+                <div class="features-section__container">
+                    <div class="features-section__cards">
+                        <div class="features-section__card features-card">
+                            <div class="features-card__icon-image">
+                                <img src="img/icons/delivery.svg" alt="delivery-icon">
+                            </div>
+                            <h3 class="features-card__title">Pengiriman Cepat dan Aman</h3>
+                            <div class="features-card__text">
+                                <p>
+                                    Setiap produk yang kami kirim akan selalu
+                                    datang tepat waktu. Produk anda akan
+                                    kami jaga sampai anda terima.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="features-section__card features-card">
+                            <div class="features-card__icon-image">
+                                <img src="img/icons/contemporary-design.svg" alt="contemporary-design-icon">
+                            </div>
+                            <h3 class="features-card__title">Design Kekinian Kualitas Terbaik</h3>
+                            <div class="features-card__text">
+                                <p>
+                                    Produk yang tersedia dijamin kualitasnya.
+                                    Dengan design yang mengikuti
+                                    perkembangan interior masa kini.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="features-section__card features-card">
+                            <div class="features-card__icon-image">
+                                <img src="img/icons/recycled-products.svg" alt="recycled-products-icon">
+                            </div>
+                            <h3 class="features-card__title">Produk Daur Ulang dan Ramah Lingkungan</h3>
+                            <div class="features-card__text">
+                                <p>
+                                    Produk yang kami sediakan berasal dari
+                                    produk daur ulang namun tetap
+                                    dengan kualitas terbaik.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__section inspiration-section">
+                <div class="inspiration-section__container">
+                    <h2 class="inspiration-section__title">Koleksi Furniture<br>Untuk Inpirasi Ruanganmu</h2>
+                    <div class="inspiration-section__item-details item-inspiration-details">
+                        <h3 class="item-inspiration-details__title">Stocksund Inspiration Fullset</h3>
+                        <div class="item-inspiration-details__text">
+                            <p>
+                                Berikut ini adalah sebuah desain ruang tv keluarga yang digunakan untuk berkumpul dan bersantai.
+                                Sofa STOCKSUND menawarkan banyak ruang sehingga setiap anggota keluarga dan tamu
+                                mendapatkan tempat duduk. Sofa ini sangat nyaman dan dapat bertahan hingga bertahun-tahun
+                            </p>
+                        </div>
+                        <div class="item-inspiration-details__price">
+                            Rp. 12.780.000
+                        </div>
+
+                        <div data-radios-select class="item-inspiration-details__details details">
+                            <div class="details__image">
+                                <img data-select-id="stocksund-couch-blue" src="img/product/stocksund-couch-blue.jpg" alt="stocksund-couch-blue">
+                                <img data-select-id="stocksund-couch-orange" src="img/product/stocksund-couch-orange.jpg" alt="stocksund-couch-blue">
+                                <img data-select-id="stocksund-couch-green" src="img/product/stocksund-couch-green.jpg" alt="stocksund-couch-blue">
+                            </div>
+                            <div class="details__info">
+                                <h4 class="details__title">Stocksund Sofa</h4>
+                                <div class="details__select-variant">
+                                    <span class="details__select-variant-title">Warna</span>
+                                    <div data-radios class="details__select-variant-actions">
+                                        <label class="details__select-variant-label">
+                                            <input checked type="radio" name="stocksund-couch" id="stocksund-couch-blue">
+                                            <span class="details__select-variant-btn details__select-variant-btn_blue"></span>
+                                        </label>
+                                        <label class="details__select-variant-label">
+                                            <input type="radio" name="stocksund-couch" id="stocksund-couch-orange">
+                                            <span class="details__select-variant-btn details__select-variant-btn_orange"></span>
+                                        </label>
+                                        <label class="details__select-variant-label">
+                                            <input type="radio" name="stocksund-couch" id="stocksund-couch-green">
+                                            <span class="details__select-variant-btn details__select-variant-btn_green"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section data-tabs class="main__section product-section">
+                <div class="product-section__container">
+                    <h2 class="product-section__title">Produk Katalog</h2>
+                    <div class="product-section__tabs-categories">
+                        <div data-tabs-switch="Meja" class="product-section__tab-category product-section__tab-category_active">Meja</div>
+                        <div data-tabs-switch="Kursi" class="product-section__tab-category">Kursi</div>
+                        <div data-tabs-switch="Lemari" class="product-section__tab-category">Lemari</div>
+                        <div data-tabs-switch="Rak" class="product-section__tab-category">Rak</div>
+                        <div data-tabs-switch="Lampu" class="product-section__tab-category">Lampu</div>
+                        <div data-tabs-switch="Lainnya" class="product-section__tab-category">Lainnya</div>
+                    </div>
+                    <div data-tabs-content="Meja" class="product-section__tabs-products">
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#diskon" class="product__tag product__tag_sale">Diskon 10%</a>
+                                <a href="#" class="product__image">
+                                    <img data-select-id="arkelstrop-champagne" src="img/product/arkelstrop-champagne.png" alt="arkelstrop-champagne">
+                                    <img data-select-id="lillasen-champagne" src="img/product/lillasen-champagne.png" alt="lillasen-champagne">
+                                    <img data-select-id="micke-black" src="img/product/micke-black.png" alt="micke-black">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="arkelstrop" id="arkelstrop-champagne">
+                                        <span class="product__variant-btn product__variant-btn_light-sand"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="arkelstrop" id="lillasen-champagne">
+                                        <span class="product__variant-btn product__variant-btn_orange"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="arkelstrop" id="micke-black">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Arkelstrop</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 2.699.100</div>
+                                    <div class="product__olp-price">Rp. 2.999.000</div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#diskon" class="product__tag product__tag_new">Produk Baru</a>
+                                <a href="#" class="product__image">
+                                    <img data-select-id="lillasen-champagne" src="img/product/lillasen-champagne.png" alt="lillasen-champagne">
+                                    <img data-select-id="arkelstrop-champagne" src="img/product/arkelstrop-champagne.png" alt="arkelstrop-champagne">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="lillasen" id="lillasen-champagne">
+                                        <span class="product__variant-btn product__variant-btn_copper"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="lillasen" id="arkelstrop-champagne">
+                                        <span class="product__variant-btn product__variant-btn_orange"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Lillasen</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 2.499.100</div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#diskon" class="product__tag product__tag_new">Produk Baru</a>
+                                <a href="#" class="product__image">
+                                    <img data-select-id="micke-black" src="img/product/micke-black.png" alt="micke-black">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="micke" id="micke-black">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="micke" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Micke</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 999.100</div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#" class="product__image">
+                                    <img data-select-id="tilslag-light" src="img/product/tilslag-light.png" alt="tilslag-light">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                    <img data-select-id="micke-black" src="img/product/micke-black.png" alt="micke-black">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="tilslag" id="tilslag-light">
+                                        <span class="product__variant-btn product__variant-btn_light-sand"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="tilslag" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="tilslag" id="micke-black">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Tilslag</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 1.499.000</div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#" class="product__image">
+                                    <img data-select-id="lagkapten-adils-gray" src="img/product/lagkapten-adils-gray.png" alt="lagkapten-adils-gray">
+                                    <img data-select-id="tilslag-light" src="img/product/tilslag-light.png" alt="tilslag-light">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="lagkapten" id="lagkapten-adils-gray">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="lagkapten" id="tilslag-light">
+                                        <span class="product__variant-btn product__variant-btn_light-sand"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="lagkapten" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Lagkapten/Adils</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 849.000</div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#" class="product__image">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                    <img data-select-id="tilslag-light" src="img/product/tilslag-light.png" alt="tilslag-light">
+                                    <img data-select-id="lagkapten-adils-gray" src="img/product/lagkapten-adils-gray.png" alt="lagkapten-adils-gray">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="adils" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="adils" id="tilslag-light">
+                                        <span class="product__variant-btn product__variant-btn_light-sand"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="adils" id="lagkapten-adils-gray">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Adils/Linmon</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 499.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tabs-content="Kursi" class="product-section__tabs-products">
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#diskon" class="product__tag product__tag_new">Produk Baru</a>
+                                <a href="#" class="product__image">
+                                    <img data-select-id="lillasen-champagne" src="img/product/lillasen-champagne.png" alt="lillasen-champagne">
+                                    <img data-select-id="arkelstrop-champagne" src="img/product/arkelstrop-champagne.png" alt="arkelstrop-champagne">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="lillasen1" id="lillasen-champagne">
+                                        <span class="product__variant-btn product__variant-btn_copper"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="lillasen1" id="arkelstrop-champagne">
+                                        <span class="product__variant-btn product__variant-btn_orange"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Lillasen</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 2.499.100</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#" class="product__image">
+                                    <img data-select-id="lagkapten-adils-gray" src="img/product/lagkapten-adils-gray.png" alt="lagkapten-adils-gray">
+                                    <img data-select-id="tilslag-light" src="img/product/tilslag-light.png" alt="tilslag-light">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="lagkapten1" id="lagkapten-adils-gray">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="lagkapten1" id="tilslag-light">
+                                        <span class="product__variant-btn product__variant-btn_light-sand"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="lagkapten1" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Lagkapten/Adils</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 849.000</div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#" class="product__image">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                    <img data-select-id="tilslag-light" src="img/product/tilslag-light.png" alt="tilslag-light">
+                                    <img data-select-id="lagkapten-adils-gray" src="img/product/lagkapten-adils-gray.png" alt="lagkapten-adils-gray">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="adils1" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="adils1" id="tilslag-light">
+                                        <span class="product__variant-btn product__variant-btn_light-sand"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="adils1" id="lagkapten-adils-gray">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Adils/Linmon</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 499.000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#diskon" class="product__tag product__tag_new">Produk Baru</a>
+                                <a href="#" class="product__image">
+                                    <img data-select-id="micke-black" src="img/product/micke-black.png" alt="micke-black">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="micke1" id="micke-black">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="micke1" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Micke</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 999.100</div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-radios-select class="product">
+                            <div class="product__view">
+                                <a href="#" class="product__image">
+                                    <img data-select-id="tilslag-light" src="img/product/tilslag-light.png" alt="tilslag-light">
+                                    <img data-select-id="adils-limmon" src="img/product/adils-limmon.png" alt="adils-limmon">
+                                    <img data-select-id="micke-black" src="img/product/micke-black.png" alt="micke-black">
+                                </a>
+                                <div data-radios class="product__variant-actions">
+                                    <label class="product__variant-label">
+                                        <input checked type="radio" name="tilslag1" id="tilslag-light">
+                                        <span class="product__variant-btn product__variant-btn_light-sand"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="tilslag1" id="adils-limmon">
+                                        <span class="product__variant-btn product__variant-btn_silver"></span>
+                                    </label>
+                                    <label class="product__variant-label">
+                                        <input type="radio" name="tilslag1" id="micke-black">
+                                        <span class="product__variant-btn product__variant-btn_dark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="product__footer">
+                                <a href="#" class="product__name">Tilslag</a>
+                                <div class="product__pricing">
+                                    <div class="product__price">Rp. 1.499.000</div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div data-tabs-content="Lemari" class="product-section__tabs-products">
+                        <div class="product-section__not-available">Tidak Tersedia</div>
+                    </div>
+                    <div data-tabs-content="Rak" class="product-section__tabs-products">
+                        <div class="product-section__not-available">Tidak Tersedia</div>
+                    </div>
+                    <div data-tabs-content="Lampu" class="product-section__tabs-products">
+                        <div class="product-section__not-available">Tidak Tersedia</div>
+                    </div>
+                    <div data-tabs-content="Lainnya" class="product-section__tabs-products">
+                        <div class="product-section__not-available">Tidak Tersedia</div>
+                    </div>
+                    <button type="button" class="product-section__btn btn btn_load-more">Lihat Semua</button>
+                </div>
+            </section>
+            <section class="main__section banner-section">
+                <div class="banner-section__container">
+                    <div class="banner-section__content">
+                        <h2 class="banner-section__title">Dapatkan Potongan Harga 30% Untuk Pembelian Pertama</h2>
+                        <div class="banner-section__caption">Segera daftar untuk mendapatkan promo terbaik sekarang!</div>
+                        <button class="banner-section__btn btn btn_orange">Daftar Sekarang</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__copy">2020 © All Right Reserved</div>
+        <div class="footer__nav">
+            <a href="#" class="footer__link">About Us</a>
+            <a href="#" class="footer__link">Contact</a>
+        </div>
+    </div>
+</footer>
+        
+        
+        <script src="js/app.min.js?_v=20230321152840"></script>
+    </body>
+</html>
+</html>
